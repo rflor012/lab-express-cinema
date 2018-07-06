@@ -1,6 +1,7 @@
 body {
   padding: 0px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightblue; }
 
 .background {
   border: none;
@@ -19,6 +20,13 @@ body {
   color: white;
   font-size: 90px; }
 
+.container {
+  display: flex; }
+
+.organize {
+  display: flex;
+  justify-content: space-evenly; }
+
 .main-content {
   position: relative;
   top: 400px;
@@ -27,6 +35,21 @@ body {
   clear: both;
   color: white;
   font-size: 40px; }
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justy-content: space-between;
+  border-style: solid;
+  border-color: black; }
+
+.movie-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  background-color: lightblue; }
 
 .button {
   border-radius: 20px;
