@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<h2>Click on a movie to see a showing time!</h2>
+
+{{#each moviesArray}}
+<div>
+  {{> _moviesPartial}}
+</div>
+
+<a href="/movies/{{this._id}}">See More!</a>
+
+{{/each}}
